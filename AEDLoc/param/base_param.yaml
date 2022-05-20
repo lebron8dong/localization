@@ -1,0 +1,5 @@
+train_path: ["newdata1.csv", "newdata2.csv", "newdata3.csv", "newdata4.csv"] # training dataset path
+test_path:  ["newdata5.csv"] # validation dataset path
+input_channel: 4
+kernel_size: 2 # the size of convolution kernel
+

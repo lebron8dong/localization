@@ -1,0 +1,12 @@
+lr: 0.001 # learning rate
+epoch_1: 20 # epochs we train feature
+epoch_2: 10 # epochs we train domain
+epoch_3: 1  # epochs we train postion
+fea_weights: [] # the weight of featureNet we used to train or test
+domain_weights: # the weight of domainNet we used to train or test
+pos_weights: # the weight of posNet we used to train or test
+save: False # whether we save our model 
+lr_decay: 0.8 # the learning rate decay parameter
+epoch_decay: 5 # learning rate decay interval
+batch_size: 16 # the size of batch we train or test
+device: 0  # the device we used to run our code ie.0,1 or cpu
